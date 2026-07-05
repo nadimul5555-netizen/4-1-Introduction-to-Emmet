@@ -1,0 +1,62 @@
+*{
+            padding: 0;
+            margin: 0;
+        }
+
+        .navber{
+            display: flex;
+            background-color: yellow;
+            
+        }
+        ul>li{
+            list-style: none;
+            padding: 20px;
+            background-color: red;
+           margin: 20px;
+           border: 2px solid black;
+           border-radius: 10px;
+ 
+        }
+
+        ul li:hover{
+            background-color: green;
+            box-shadow: 12px 8px 5px gray;
+
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .hero{
+            display: flex;
+            background-color: lightpink;
+            padding: 10px;
+            align-items: center;
+        }
+
+        .hero-image{
+           flex: 1;
+          
+        } 
+        .hero-contant{
+            text-align: center;
+            flex: 1;
+            font-size: 2rem;
+        }
+
+    .hero-image img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    button{
+        padding:10px 20px;
+        border-radius: 20px;
+        
+    }
+    button:hover{
+        box-shadow: 10px 10px 8px gray;
+        background-color: green;
+    }
